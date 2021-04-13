@@ -45,7 +45,7 @@
                 
                 $("#botonbuscar").click(function() {
                    $.ajax({
-                      url: "documents/cine.json",
+                      url: "https://northwind.netcore.io/customers?format=json",
                       type: "GET",
                       success: function(data) {
                           var titulo = $("#cajatitulo").val();
