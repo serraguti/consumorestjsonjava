@@ -43,7 +43,7 @@
         </section>
         <jsp:include page="includes/webfooter.jsp"/>
         <script>
-            var url = "http://localhost:8084/ApiCrudDepartamentos/";
+            var url = "https://apicruddepartamentosjava.azurewebsites.net/";
             $(document).ready(function(){
                 cargarDepartamentos();
                 $("#botoninsertar").click(function(){
